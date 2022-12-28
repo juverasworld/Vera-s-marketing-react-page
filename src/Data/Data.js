@@ -21,15 +21,15 @@ import img3 from "../imgs/img3.png";
 export const SidebarData = [
   {
     icon: UilEstate,
-    heading: "Dashboard",
+    heading: "Home",
   },
   {
     icon: UilClipboardAlt,
-    heading: "Orders",
+    heading: "Advertisment",
   },
   {
     icon: UilUsersAlt,
-    heading: "Customers",
+    heading: "Marketing",
   },
   {
     icon: UilPackage,
@@ -41,16 +41,16 @@ export const SidebarData = [
   },
 ];
 
-// Analytics Cards Data
+// Analytics Cards Data1
 export const cardsData = [
   {
-    title: "Sales",
+    title: "Advertisment",
     color: {
       backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
     barValue: 70,
-    value: "25,970",
+    value: "250,00",
     png: UilUsdSquare,
     series: [
       {
@@ -62,7 +62,7 @@ export const cardsData = [
   {
     title: "Revenue",
     color: {
-      backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
+      backGround: 'greenyellow',
       boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
     barValue: 80,
@@ -75,17 +75,70 @@ export const cardsData = [
       },
     ],
   },
+  
   {
-    title: "Expenses",
+    title: "Marketing",
     color: {
       backGround:
-        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
-      boxShadow: "0px 10px 20px 0px #F9D59B",
+        "linear-gradient( 106.37deg,  #ffe1bc 29.63%,#ffcfd1 51.55%,   #f3c6f1 90.85%",
+      boxShadow: "0px 10px 20px 0px white",
     },
     barValue: 60,
     value: "4,270",
     png: UilClipboardAlt,
     series: [
+      {
+        name: "Expenses",
+        data: [10, 25, 15, 30, 12, 15, 20],
+      },
+    ],
+  },
+];
+//the second card lineHeight:
+export const cardsData1 = [
+  {
+    title1: "Sales",
+    color1: {
+      backGround: "yellow",
+      boxShadow: "0px 10px 20px 0px #e0c6f5",
+    },
+    barValue1: 120,
+    value1: "250,00",
+    png1: UilUsdSquare,
+    series1: [
+      {
+        name: "Sales",
+        data: [31, 40, 28, 51, 42, 109, 100],
+      },
+    ],
+  },
+  {
+    title1: "Revenue",
+    color1: {
+      backGround: 'orange',
+      boxShadow: "0px 10px 20px 0px #FDC0C7",
+    },
+    barValue1: 80,
+    value1: "14,270",
+    png1: UilMoneyWithdrawal,
+    series1: [
+      {
+        name: "Revenue",
+        data: [10, 100, 50, 70, 80, 30, 40],
+      },
+    ],
+  },
+  {
+    title1: "Marketing",
+    color1: {
+      backGround:
+        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
+      boxShadow: "0px 10px 20px 0px #F9D59B",
+    },
+    barValue1: 60,
+    value1: "4,270",
+    png1: UilClipboardAlt,
+    series1: [
       {
         name: "Expenses",
         data: [10, 25, 15, 30, 12, 15, 20],
