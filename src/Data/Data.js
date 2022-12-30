@@ -11,11 +11,10 @@ import {
 // Analytics Cards imports
 import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
 import { keyboard } from "@testing-library/user-event/dist/keyboard";
+import { Profiler } from "react";
 
 // Recent Card Imports
-import img1 from "../imgs/img1.png";
-import img2 from "../imgs/img2.png";
-import img3 from "../imgs/img3.png";
+import profile from '../imgs/profile.png';
 
 // Sidebar Data
 export const SidebarData = [
@@ -150,21 +149,21 @@ export const cardsData1 = [
 // Recent Update Card Data
 export const UpdatesData = [
   {
-    img: img1,
-    name: "Andrew Thomas",
-    noti: "has ordered Apple smart watch 2500mh battery.",
+    img: profile,
+    name: "Obasi Vera",
+    noti: "Advert Notice.",
     time: "25 seconds ago",
   },
   {
-    img: img2,
-    name: "James Bond",
+    img: profile,
+    name: "Izsuka jeniffer",
     noti: "has received Samsung gadget for charging battery.",
     time: "30 minutes ago",
   },
   {
-    img: img3,
-    name: "Iron Man",
-    noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    img: profile,
+    name: "Chioma baby",
+    noti: "Request Blog",
     time: "2 hours ago",
   },
 ];
